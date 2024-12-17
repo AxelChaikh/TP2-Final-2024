@@ -107,7 +107,7 @@ El proyecto corre en el puerto 8080: `http://localhost:8080` de no estar disponi
     }
 
 ### Actualizar nota
-- **Método:** `POST`
+- **Método:** `PUT`
 - **Ruta:** `http://localhost:8080/alumnos/update/nota/:id`
 - **Descripción:** Actualiza la nota del alumno que se paso por parametro en la ruta.
 - **Body:**
