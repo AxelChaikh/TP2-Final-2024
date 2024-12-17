@@ -1,0 +1,22 @@
+{
+  "name": "tp2-final-2024",
+  "version": "1.0.0",
+  "description": "Final TP2",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env .",
+    "watch": "node --env-file=.env --watch .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Axel Chaikh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "joi": "^17.13.3"
+  }
+}
